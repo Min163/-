@@ -1,6 +1,5 @@
 package problem1463;
 import java.util.Scanner;
-import java.lang.Math;
 
 public abstract class problem1463 {
 	public static void main(String[] args) {
