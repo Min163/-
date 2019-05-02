@@ -32,7 +32,7 @@ public class problem1932 {
 						int tmp = previous.get(j) + current.get(j);
 						
 						if(tmp > temp.get(j)) {
-							temp.add(j, tmp);
+							temp.set(j, tmp);
 						}
 						
 						temp.add(previous.get(j) + current.get(j+1));
@@ -46,5 +46,6 @@ public class problem1932 {
 		
 		Collections.sort(previous);
 		System.out.println(previous.get(previous.size()-1));	
+		
 	}
 }
